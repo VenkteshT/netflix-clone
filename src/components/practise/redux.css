@@ -1,0 +1,42 @@
+.main {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.msg-container {
+  height: 60%;
+  width: 80%;
+  border: solid white 0.1em;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: all 2s ease;
+}
+.show-msg {
+  border: solid white 0.1em;
+  content: none;
+  height: 70%;
+  width: 90%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: all ease-in 2s;
+  gap: 5px;
+}
+.msg {
+  margin-top: 4px;
+  border: solid whitesmoke 0.07em;
+  transition: all 2s ease;
+  border-radius: 5px;
+  padding: 5px;
+  width: 90%;
+  opacity: 1;
+}
